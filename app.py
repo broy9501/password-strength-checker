@@ -10,7 +10,6 @@ import json
 
 # Mask and get the password input
 password = maskpass.askpass(prompt="Enter your password: ", mask="*")
-print(f"password: {password}")
 
 # Calculate character varierty score
 def characterVariety(password):
