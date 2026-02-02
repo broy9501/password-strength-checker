@@ -1,0 +1,52 @@
+{
+    "password": "Welcome2024!",
+    "guesses": "44810000",
+    "guesses_log10": 7.651374943913042,
+    "sequence": [
+        {
+            "pattern": "dictionary",
+            "i": 0,
+            "j": 6,
+            "token": "Welcome",
+            "matched_word": "welcome",
+            "rank": 112,
+            "dictionary_name": "passwords",
+            "reversed": false,
+            "l33t": false,
+            "base_guesses": 112,
+            "uppercase_variations": 2,
+            "l33t_variations": 1,
+            "guesses": 224,
+            "guesses_log10": 2.3502480183341623
+        },
+        {
+            "pattern": "bruteforce",
+            "token": "2024!",
+            "i": 7,
+            "j": 11,
+            "guesses": 100000,
+            "guesses_log10": 5.0
+        }
+    ],
+    "calc_time": "0:00:00.002029",
+    "crack_times_seconds": {
+        "online_throttling_100_per_hour": "1613160000.000000089548368720",
+        "online_no_throttling_10_per_second": "4481000",
+        "offline_slow_hashing_1e4_per_second": "4481",
+        "offline_fast_hashing_1e10_per_second": "0.004481"
+    },
+    "crack_times_display": {
+        "online_throttling_100_per_hour": "50 years",
+        "online_no_throttling_10_per_second": "2 months",
+        "offline_slow_hashing_1e4_per_second": "1 hour",
+        "offline_fast_hashing_1e10_per_second": "less than a second"
+    },
+    "score": 2,
+    "feedback": {
+        "warning": "This is similar to a commonly used password.",
+        "suggestions": [
+            "Add another word or two. Uncommon words are better.",
+            "Capitalization doesn't help very much."
+        ]
+    }
+}

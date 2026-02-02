@@ -1,0 +1,25 @@
+features:
+    - length analysis
+    - character variety
+    - Entropy Calculations
+    - Strength score
+    - Crack-time estimation
+    - attack pattern detection
+
+input: password string
+output: json structured security report
+
+
+input handling: read password and mask input
+
+pre-analysis: check length, character variety, repeated characters
+
+Calculate entropy: more entropy = stronger, estimate randomness
+
+attack pattern detection:  detect attack patterns
+
+crack time: estimate crack time under offline fast hash, online attacks
+
+risk scoring: combine information and produce score
+
+feedback generation
