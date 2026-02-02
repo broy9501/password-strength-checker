@@ -96,8 +96,8 @@ if suggestions:
 
 print("\n")
 
-with open('zxcvbn_result.json', 'w', encoding='utf-8') as f:
-    json.dump(result, f, indent=4, default=str)
+# with open('zxcvbn_result.json', 'w', encoding='utf-8') as f:
+#    json.dump(result, f, indent=4, default=str)
 
 data = {
     "length": length,
